@@ -1,6 +1,6 @@
-function shelfBook(book, sciFiShelf) {
-  if (sciFiShelf.length < 3) {
-    sciFiShelf.unshift(book)
+function shelfBook(book, bookShelf) {
+  if (bookShelf.length < 3) {
+    bookShelf.unshift(book)
   }
 };
 
